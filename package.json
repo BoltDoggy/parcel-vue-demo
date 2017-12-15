@@ -16,7 +16,8 @@
     "less": "^2.7.3",
     "parcel-bundler": "^1.1.0",
     "parcel-plugin-eslint": "^0.1.1",
-    "parcel-plugin-vue": "^1.0.1"
+    "parcel-plugin-vue": "^1.0.1",
+    "typescript": "^2.6.2"
   },
   "dependencies": {
     "vue": "^2.5.9"
