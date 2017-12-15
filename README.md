@@ -27,4 +27,5 @@ The log show `Cannot find module './index.vue'.`
 ~~More in https://github.com/TypeStrong/ts-loader#appendtsxsuffixto-regexp-default.~~
 
 > But that's fine because your bundle is still bundled, it's just a reporting. The simplest workaround for this would be to add declare module '*.vue' in a .d.ts file in your project.
+> 
 > from https://github.com/fathyb/parcel-plugin-typescript/issues/2
