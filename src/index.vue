@@ -2,10 +2,12 @@
     <div>Hello {{ World }}! <ComponentA /></div>
 </template>
 
-<script>
-import ComponentA from './ComponentA';
+<script lang="tts">
+import Component from 'vue-class-component';
+import ComponentA from './ComponentA.vue';
 import World from './World';
 
+@Component();
 export default {
     data() {
         return {
