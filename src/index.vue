@@ -2,8 +2,8 @@
     <div>Hello {{ World }}! <ComponentA /></div>
 </template>
 
-<script>
-import ComponentA from './ComponentA';
+<script lang="ts">
+import ComponentA from './ComponentA.vue';
 import World from './World';
 
 export default {
