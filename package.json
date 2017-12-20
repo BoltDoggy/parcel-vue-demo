@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "rm -rf .cache && rm -rf dist && parcel index.html",
+    "dev": "rm -rf .cache && rm -rf dist && parcel index.html --public-url /",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

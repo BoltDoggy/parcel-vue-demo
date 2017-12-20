@@ -1,5 +1,6 @@
 <template>
-    <div>Hello {{ World }}! <ComponentA /></div>
+    <div><img src="./logo.png" alt="">
+        Hello {{ World }}! <ComponentA /></div>
 </template>
 
 <script>
@@ -20,7 +21,7 @@ export default {
 
 
 <style lang="less">
-    @color: red;
+    @color: blue;
 
     div {
         color: @color;
