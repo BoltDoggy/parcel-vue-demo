@@ -20,7 +20,7 @@ export default {
 
 
 <style lang="less">
-    @color: blue;
+    @color: red;
 
     div {
         color: @color;
