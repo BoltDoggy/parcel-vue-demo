@@ -1,13 +1,20 @@
 <template>
-    <div>Hello {{ WORLD }}!</div>
+    <div><img src="./logo.png" alt="">
+        Hello {{ World }}! <ComponentA /></div>
 </template>
 
 <script>
+import ComponentA from './ComponentA';
+import World from './World';
+
 export default {
     data() {
         return {
-            WORLD: 'World'
+            World
         };
+    },
+    components: {
+        ComponentA
     }
 };
 </script>

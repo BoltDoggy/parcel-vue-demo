@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "rm -rf .cache && rm -rf dist && parcel index.html",
+    "dev": "rm -rf .cache && rm -rf dist && parcel index.html --public-url /",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,14 +13,16 @@
     "babel-eslint": "^8.0.3",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.13.1",
     "less": "^2.7.3",
-    "parcel-bundler": "^1.1.0",
-    "parcel-plugin-eslint": "^0.1.1",
+    "parcel-bundler": "^1.4.1",
+    "parcel-plugin-eslint": "1.0.0",
     "parcel-plugin-typescript": "^0.2.1",
-    "parcel-plugin-vue": "^1.0.1",
+    "parcel-plugin-vue": "^1.5.0",
     "typescript": "^2.6.2"
   },
   "dependencies": {
-    "vue": "^2.5.9"
+    "vue": "^2.5.13",
+    "vue-template-compiler": "2.5.13"
   }
 }

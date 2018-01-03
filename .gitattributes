@@ -1,0 +1,2 @@
+# git config diff.nodiff.command /usr/bin/true
+package-lock.json diff=nodiff
