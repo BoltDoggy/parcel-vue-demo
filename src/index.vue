@@ -1,5 +1,6 @@
 <template>
-    <div>Hello {{ World }}! <ComponentA /></div>
+    <div><img src="./logo.png" alt="">
+        Hello {{ World }}! <ComponentA /></div>
 </template>
 
 <script lang="ts">
