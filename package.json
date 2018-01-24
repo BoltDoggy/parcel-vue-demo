@@ -15,8 +15,8 @@
     "babel-preset-es2015": "^6.24.1",
     "eslint": "^4.13.1",
     "less": "^2.7.3",
-    "parcel-bundler": "^1.4.1",
-    "parcel-plugin-eslint": "1.0.0",
+    "parcel-bundler": "1.4.1",
+    "parcel-plugin-eslint": "^1.0.2",
     "parcel-plugin-vue": "^1.5.0"
   },
   "dependencies": {

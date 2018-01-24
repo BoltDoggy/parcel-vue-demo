@@ -1,6 +1,10 @@
 import Vue from 'vue';
-import Index from './index.vue';
+// import Index from './index.vue';
 
-const app = new Vue({ render: h => h(Index) });
+const IndexImporter = import('./index.vue');
 
-app.$mount('#app');
+IndexImporter.then((Index) => {
+    const app = new Vue({ render: h => h(Index) });
+
+    app.$mount('#app');
+});
