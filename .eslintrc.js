@@ -1,3 +1,7 @@
 module.exports = {
-    parser: 'babel-eslint'
+    extends: 'airbnb-base',
+    parser: 'babel-eslint',
+    rules: {
+        "indent": ["error", 4],
+    }
 };
